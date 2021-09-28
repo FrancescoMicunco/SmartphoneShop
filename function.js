@@ -11,3 +11,10 @@ let footer = document.querySelector("#address");
 const changeFooter = function() {
     footer.innerText = "wrong adress, we are Sorry!"
 }
+
+let a = document.getElementsByTagName("a")
+let addClass = function() {
+
+    a[0].classList.add("background")
+}
+addClass()

@@ -56,3 +56,7 @@ tr {
     padding: 10px;
     border: 2px red solid;
 }
+
+.background {
+    background-color: cornsilk;
+}
