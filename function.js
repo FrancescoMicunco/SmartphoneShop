@@ -6,3 +6,8 @@ const changeTitle = function() {
 const changeBackground = function() {
     document.body.style.backgroundColor = "blue";
 }
+
+let footer = document.querySelector("#address");
+const changeFooter = function() {
+    footer.innerText = "wrong adress, we are Sorry!"
+}
