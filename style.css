@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 166, 0);
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+    ;
+}
+
+button {
+    background-color: none;
+}
+
+img {
+    height: 150px;
+    max-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    box-shadow: rgba(77, 50, 2, 0.13) 10px 5px;
+    border-radius: 5px;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50%;
+}
+
+td {
+    display: flex;
+    width: 250px;
+}
+
+tr {
+    min-height: 420px;
+    padding: 10px;
+    border: 2px red solid;
+}
